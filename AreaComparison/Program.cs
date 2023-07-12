@@ -15,6 +15,12 @@ namespace AreaComparison
                 Console.WriteLine("Area1 and Area2 are equal");
             else
                 Console.WriteLine("Area1 and Area2 are not equal");
+            if (area1.CompareTo(area2) == 0)
+                Console.WriteLine("Both area are equal");
+            if (area1.CompareTo(area2) > 0)
+                Console.WriteLine("Area1 is greater than area2");
+            if (area1.CompareTo(area2) < 0)
+                Console.WriteLine("Area1 is smaller than area2");
         }
     }
 }
