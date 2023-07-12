@@ -14,10 +14,11 @@ namespace AreaComparison
             this.l = l;
             this.b = b;
         }
-        public void CalculateArea()
+        public double CalculateArea()
         {
             double area = l * b;
             Console.WriteLine("Area of rectangle : " + area);
+            return area;
         }
     }
 }
